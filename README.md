@@ -1,7 +1,11 @@
 ## Установить зависимости
-`poetry install`
-или 
-`pip install -r requirements.txt`
+```poetry install```  
+или  
+```
+python -m venv venv
+// Далее активируйте окружение в зависиммости от ОС
+pip install .
+```
 
 # Fastq analyzer
 ### Посмотреть возможные параметры
